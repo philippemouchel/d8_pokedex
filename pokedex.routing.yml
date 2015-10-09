@@ -1,7 +1,23 @@
-pokedex.content:
+# In order to to create pages it is necessary to define routes for them. A route
+# maps a URL path to a controller. It defines with what function or method will
+# be called when a URL is accessed. The following lines defines three of them
+# for this module.
+
+# Menu items corresponding to these URLs are defined separately in the
+# page_example.menu_links.yml file.
+
+pokedex.home:
   path: '/pokedex'
   defaults:
     _controller: '\Drupal\pokedex\Controller\HomeController::content'
     _title: 'Pokedex'
   requirements:
     _permission: 'access content'
+
+pokedex.settings:
+  path: '/admin/config/pokedex/settings'
+  defaults:
+    _controller: '\Drupal\pokedex\Controller\AdminSettingsController::content'
+    _title: 'Pokedex settings'
+  requirements:
+    _permission: 'access pokedex settings'

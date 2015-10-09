@@ -1,0 +1,6 @@
+pokedex.admin:
+  title: 'Pokedex settings'
+  description: 'Configure your Pokedex.'
+  parent: system.admin_config_system
+  route_name: pokedex.settings
+  weight: 100
