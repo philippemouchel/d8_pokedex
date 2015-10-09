@@ -3,10 +3,10 @@
 <?php
 /**
  * @file
- * Contains \Drupal\Pokedex\Controller\HomeController.
+ * Contains \Drupal\pokedex\Controller\HomeController.
  */
 
-namespace Drupal\Pokedex\Controller;
+namespace Drupal\pokedex\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 
