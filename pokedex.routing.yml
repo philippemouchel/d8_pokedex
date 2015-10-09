@@ -1,0 +1,7 @@
+pokedex.content:
+  path: '/pokedex'
+  defaults:
+    _controller: '\Drupal\pokedex\Controller\HomeController::content'
+    _title: 'Pokedex'
+  requirements:
+    _permission: 'access content'
