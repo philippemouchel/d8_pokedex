@@ -1,0 +1,6 @@
+name: Pokedex Module
+description: Provide Pokedex features.
+package: GameFreak
+type: module
+version: 1.0
+core: 8.x
