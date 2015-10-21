@@ -4,3 +4,10 @@ pokedex.admin:
   parent: system.admin_config_system
   route_name: pokedex.settings
   weight: 100
+
+# pokedex.home:
+#   title: 'Pokedex'
+#   description: 'Access full Pokedex.'
+#   parent: main
+#   route_name: pokedex.home
+#   weight: 2
